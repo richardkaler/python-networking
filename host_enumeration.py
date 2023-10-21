@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-#NOTE: The shebang is only necessary if you are running this on Linux and want to run the script without navigating to the directory it resides in first
+#NOTE: The shebang is only necessary if you are running this on Linux and want to run the script without navigating to the directory it resides in first. For that, you also need to make sure this 
+#script is placed into a directory that is in path. 
 
 import logging
 import paramiko
