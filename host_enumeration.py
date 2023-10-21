@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-
-#NOTE: The shebang is only necessary if you are running this on Linux and want to run the script without navigating to the directory it resides in first. For that, you also need to make sure this 
-#script is placed into a directory that is in path. 
+#NOTE: The shebang line above is only necessary if you want to run the script without typing "python ssh_input_connect.py" each time you need to run it 
 
 import logging
 import paramiko
