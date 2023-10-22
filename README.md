@@ -5,7 +5,7 @@ REQUIRED PACKAGES for ssh_input_connect.py:
 
 NOTE: See below - regaring my thoughts on python venvs 
 
-python3 -m venv virtual-env #The first argument or the name of the Python version may vary but for most systems using Python 3, this command will do  
+python3 -m venv virtual-env The first argument or the name of the Python version may vary but for most systems using Python 3, this command will do  
 
 To activate the venv: 
 source ./virtual-env/bin/activate 
