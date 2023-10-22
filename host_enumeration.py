@@ -10,8 +10,7 @@ ipinput = input("Enter the IP address for the host: ")
 
 userinput = input("Enter the user name for ssh connection: ")
 
-inputpasswd = maskpass.askpass(mask="")
-print(inputpasswd)
+inputpasswd = maskpass.askpass(mask="#")
 
 print("Processing script with credential provided")
 
