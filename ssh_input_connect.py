@@ -12,8 +12,7 @@ ipinput = input("Enter the IP address for the host: ")
 userinput = input("Enter the user name for SSH connection: ")
 
 # Prompt for the password securely using maskpass
-inputpasswd = maskpass.askpass(mask="")
-print(inputpasswd)
+inputpasswd = maskpass.askpass(mask="#")
 print("Type 'clear' once you enter the ssh session to refresh the terminal\nType ctrl+c to exit the session at any time\nInitiating session now...")
 time.sleep(5)
 
