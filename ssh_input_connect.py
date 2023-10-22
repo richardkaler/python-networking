@@ -1,8 +1,4 @@
-!/usr/bin/env python
-
-#NOTE: The shebang line above is only necessary if you want to run the script without typing "python ssh_input_connect.py" each time you need to run it 
-#This script was created as a simple method to connect to a server without manually typing out the ssh syntax for a connection via the traditional method on the command line. 
-#I will add another script that connects using ssh keys - and that is the preferred method but this is a convenient choice for those who do not have public key authentication set up yet 
+#!/usr/bin/env python
 
 import paramiko
 import maskpass
@@ -13,6 +9,7 @@ userinput = input("Enter the user name for SSH connection: ")
 
 # Prompt for the password securely using maskpass
 inputpasswd = maskpass.askpass(mask="#")
+
 print("Type 'clear' once you enter the ssh session to refresh the terminal\nType ctrl+c to exit the session at any time\nInitiating session now...")
 time.sleep(5)
 
