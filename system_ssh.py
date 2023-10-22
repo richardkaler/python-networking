@@ -9,15 +9,15 @@ import maskpass
 import os 
 
 # Get the password from the user
-inputpasswd = maskpass.askpass(mask="#") #Mask the input with maskpass - gotta love this darn library. It's great! 
+inputpasswd = maskpass.askpass(mask="#")
 
 # Define other variables
-host = "192.168.0.1" #Insert your IP here 
-username = "username" #Include unique username 
-port = 22 #This is the default SSH port but feel free to enhance your security by picking something less obvious... I recommend something over say 500
+host = "192.168.1.15"
+username = "MegaForce"
+port = 700
 
 # Create the sshpass command with the password included
-command = f'sshpass -p "{inputpasswd}" ssh {username}@{host} -p {port}' 
+command = f'sshpass -p "{inputpasswd}" ssh {username}@{host} -p {port}'
 
 # Execute the command
 os.system(command)
