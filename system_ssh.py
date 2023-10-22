@@ -5,8 +5,11 @@
 #Ideally, the system admin or network engineer is always using the same system for repeated ssh connections - however in the case where multiple systems are used, all of which require 
 #Unique informaiton - it's cool to have something that's more robust ... 
 
+
 import maskpass
 import os 
+
+
 
 # Get the password from the user
 inputpasswd = maskpass.askpass(mask="#")
