@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 #This is a very simple lftp client. I will edit this more later 
 import ftplib 
-import os 
-import time
 import subprocess
 
 hostname = "x.x.x.x"
